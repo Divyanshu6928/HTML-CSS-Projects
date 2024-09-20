@@ -1,0 +1,95 @@
+body{
+    font-family: SF Pro Text;
+    margin: 0px;
+    padding: 0px;
+}
+header span{
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.main-nav-bar{
+    background-color: #454545;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 1000;
+    /* margin-left: 15px; */
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #dadada;
+    padding: 10px;
+    /* box-shadow: 0px 10px 5px #454545; */
+}
+
+.nav-bar-2{
+    margin-top: 40px;
+    background-color: rgba(29,29,31,255);
+    color: white;
+    padding-top: 5px;
+    /* padding-bottom: 15px; */
+    padding-left: 70px;
+    padding-right: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px; 
+    /* text-align: center; */
+}
+
+.video-container {
+    /* margin: 20px; */
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;    
+    z-index: -1; /* Puts the video behind other content */
+}
+
+.background-video {
+    /* padding: 20px; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    /* right: 20%; */
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.event-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+}
+.event-name a{
+    padding-left: 50px;
+    font-size: 1000px;
+}
+
+.event-name button{
+    padding: 15px;
+    margin-left: 190px;
+    background-color: #0071e3;
+    cursor: pointer;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    box-shadow: 0px 10px 8px black;
+}
